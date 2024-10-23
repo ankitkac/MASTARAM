@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details MASTARAM Store</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .product-detail-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .product-image {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-details {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .product-details h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .product-description {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .product-rating .stars {
+            color: #ffc107;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .product-rating span {
+            font-size: 16px;
+        }
+
+        .add-to-cart-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .add-to-cart-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .reviews-section {
+            margin-top: 50px;
+        }
+
+        .reviews-section h3 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .review-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .review-item h4 {
+            font-size: 18px;
+            margin: 0 0 5px;
+        }
+
+        .review-item .review-rating {
+            color: #ffc107;
+        }
+
+        .review-item p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .add-review-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .add-review-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Product Details Section -->
+    <div class="product-detail-container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="assets/images/laptop.jpg" alt="Laptop">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2>Premium Laptop</h2>
+            <div class="product-price">$1,200</div>
+            <div class="product-description">
+                This is a powerful laptop with a sleek design and high performance. It comes with 16GB RAM, a 512GB SSD, and a high-quality display perfect for gaming and professional use.
+            </div>
+
+            <!-- Rating Section -->
+            <div class="product-rating">
+                <div class="stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <span>4.0 (50 reviews)</span>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="product-detail-container reviews-section">
+        <h3>Customer Reviews</h3>
+
+        <div class="review-item">
+            <h4>John Doe <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>This laptop is amazing! It's fast, reliable, and the display is incredible.</p>
+        </div>
+
+        <div class="review-item">
+            <h4>Jane Smith <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>I love this laptop, but the battery life could be better.</p>
+        </div>
+
+        <button class="add-review-btn">Add a Review</button>
+    </div>
+    <!-- Product Details Section -->
+    <div class="product-detail-container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="assets/images/laptop.jpg" alt="Laptop">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2>Premium Laptop</h2>
+            <div class="product-price">$1,200</div>
+            <div class="product-description">
+                This is a powerful laptop with a sleek design and high performance. It comes with 16GB RAM, a 512GB SSD, and a high-quality display perfect for gaming and professional use.
+            </div>
+
+            <!-- Rating Section -->
+            <div class="product-rating">
+                <div class="stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <span>4.0 (50 reviews)</span>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="product-detail-container reviews-section">
+        <h3>Customer Reviews</h3>
+
+        <div class="review-item">
+            <h4>John Doe <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>This laptop is amazing! It's fast, reliable, and the display is incredible.</p>
+        </div>
+
+        <div class="review-item">
+            <h4>Jane Smith <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>I love this laptop, but the battery life could be better.</p>
+        </div>
+
+        <button class="add-review-btn">Add a Review</button>
+    </div>
+    <!-- Product Details Section -->
+    <div class="product-detail-container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="assets/images/laptop.jpg" alt="Laptop">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2>Premium Laptop</h2>
+            <div class="product-price">$1,200</div>
+            <div class="product-description">
+                This is a powerful laptop with a sleek design and high performance. It comes with 16GB RAM, a 512GB SSD, and a high-quality display perfect for gaming and professional use.
+            </div>
+
+            <!-- Rating Section -->
+            <div class="product-rating">
+                <div class="stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <span>4.0 (50 reviews)</span>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="product-detail-container reviews-section">
+        <h3>Customer Reviews</h3>
+
+        <div class="review-item">
+            <h4>John Doe <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>This laptop is amazing! It's fast, reliable, and the display is incredible.</p>
+        </div>
+
+        <div class="review-item">
+            <h4>Jane Smith <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>I love this laptop, but the battery life could be better.</p>
+        </div>
+
+        <button class="add-review-btn">Add a Review</button>
+    </div>
+    <!-- Product Details Section -->
+    <div class="product-detail-container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="assets/images/laptop.jpg" alt="Laptop">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2>Premium Laptop</h2>
+            <div class="product-price">$1,200</div>
+            <div class="product-description">
+                This is a powerful laptop with a sleek design and high performance. It comes with 16GB RAM, a 512GB SSD, and a high-quality display perfect for gaming and professional use.
+            </div>
+
+            <!-- Rating Section -->
+            <div class="product-rating">
+                <div class="stars">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                </div>
+                <span>4.0 (50 reviews)</span>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="product-detail-container reviews-section">
+        <h3>Customer Reviews</h3>
+
+        <div class="review-item">
+            <h4>John Doe <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>This laptop is amazing! It's fast, reliable, and the display is incredible.</p>
+        </div>
+
+        <div class="review-item">
+            <h4>Jane Smith <span class="review-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h4>
+            <p>I love this laptop, but the battery life could be better.</p>
+        </div>
+
+        <button class="add-review-btn">Add a Review</button>
+    </div>
+
+</body>
+</html>

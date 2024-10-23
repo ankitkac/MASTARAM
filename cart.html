@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart MASTARAM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #c99c75;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .cart-container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .cart-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .cart-header h2 {
+            margin: 0;
+        }
+        .cart-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .cart-item img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .cart-item-details {
+            flex-grow: 1;
+        }
+        .cart-item-price {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .total {
+            margin-top: 20px;
+            text-align: right;
+            font-size: 1.5em;
+        }
+        .checkout-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .checkout-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+    <div class="cart-container">
+        <div class="cart-header">
+            <h2>Items in Cart</h2>
+            <span id="cart-count">3 items</span>
+        </div>
+        
+        <div class="cart-item">
+            <img src="assets/images/laptop.jpg" alt="Laptop">
+            <div class="cart-item-details">
+                <h3>Laptop</h3>
+                <p>Price: $500</p>
+                <p>Quantity: 1</p>
+            </div>
+            <div class="cart-item-price">$500</div>
+        </div>
+
+        <div class="cart-item">
+            <img src="assets/images/mobile.jpg" alt="Mobile">
+            <div class="cart-item-details">
+                <h3>Mobile</h3>
+                <p>Price: $300</p>
+                <p>Quantity: 1</p>
+            </div>
+            <div class="cart-item-price">$300</div>
+        </div>
+
+        <div class="cart-item">
+            <img src="assets/images/headphones.jpg" alt="Headphones">
+            <div class="cart-item-details">
+                <h3>Headphones</h3>
+                <p>Price: $50</p>
+                <p>Quantity: 2</p>
+            </div>
+            <div class="cart-item-price">$100</div>
+        </div>
+
+        <div class="total">
+            <strong>Total: $900</strong>
+        </div>
+        <a class="checkout-button" href="checkout.html">Proceed to Checkout</a>
+    </div>
+</body>
+</html>
